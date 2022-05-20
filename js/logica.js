@@ -12,7 +12,7 @@ function encriptando(){
         animacionEn;
         //Encripta
         var texto = textoEncriptar.value;
-        var encripta = texto.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("a", "ai").replaceAll("u", "ufat").replaceAll("o", "ober");
+        var encripta = texto.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("a", "ai").replaceAll("o", "ober").replaceAll("u", "ufat");
         resultado.value = encripta;
 }, 1000); 
 }
@@ -24,7 +24,7 @@ function desencriptado(){
         animacionDe;
         //Encripta
         var texto = textoEncriptar.value;
-        var desencripta = texto.replaceAll("enter", "e").replaceAll("imes", "i").replaceAll("ai", "a").replaceAll("ufat", "u").replaceAll("ober", "o");
+        var desencripta = texto.replaceAll("enter", "e").replaceAll("imes", "i").replaceAll("ai", "a").replaceAll("ober", "o").replaceAll("ufat", "u");
         resultado.value = desencripta;
 }, 1000); 
 }
