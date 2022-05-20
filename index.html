@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 class="logo"><img src="img/Vector.png"></h1>
+            </div>
+            <video autoplay muted loop id="myBackground">
+                <source src="img/Background.mp4" type="video/mp4">
+              </video>
+        </header>
+        <main>
+            <div class="gift" id="id"> </div>
+            
+            <div>
+                <div>
+                    <textarea name="texto-a-encriptar" class="texto-uno" id="texto-encriptar" placeholder="Ingrese el texto para encriptar aqui"></textarea>
+                
+                    <textarea name="resultado" class="mensaje-resultado" id="resultado" placeholder="El resultado se verá acá." ></textarea>
+                    <div class="clickcopy">Hace Click Para Copiar</div>
+                </div>
+                <div>
+                <div class="minusculas">!!!!! Solo letras minúsculas y sin acentos</div> 
+                <div class="botones">
+                    <input class="botton-encriptar" id="boton-encriptar" type="submit"  value="Encriptar">
+                    <input class="botton-desencriptar" id="boton-desencriptar" type="submit" value="Desencriptar">
+                </div>
+            </div> 
+            
+        </main>
+
+        <footer>
+            <div class="logos">
+                <div class="img-git">
+                    <a href="https://github.com/on-here" target="_blank"><img src="img/GitHub-Logo.png" alt="logo-gi"></a>               
+                </div>
+                <div class="img-link">
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin-logo.png" alt="logo-lin"></a>               
+                </div>  
+            </div>
+            <h2>Desarrollado por Sebastian Becker para el Alura Latam, Programa: Oracle Next Education #ChallengeOneLogicaLatam</h2>
+        </footer>
+
+    </body>
+    
+<script src="js/logica.js"></script>
+</html>
